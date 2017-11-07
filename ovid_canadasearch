@@ -1,9 +1,25 @@
-1. exp canada/	
-2. canada.cp.	
-3. (canada or canadian$ or alberta or british columbia or columbie britannique).af.	
-4. (saskatchewan or manitoba or ontario or quebec or new brunswick or nouveau brunswick).af.	
-5. (nova scotia or nouvelle ecosse or prince edward island or ile du prince edward or newfoundland or terre neuve or labrador or nun?v?t or nun?v?t or nwt or territoires du nord ouest or northwest territories or yukon).af.	
-6. (canada or canadian$ or alberta or british columbia or columbie britannique).in.	
-7. (saskatchewan or manitoba or ontario or quebec or new brunswick or nouveau brunswick).in.	
-8. (nova scotia or nouvelle ecosse or prince edward island or ile due prince edward or newfoundland or labrador or nun?v?t or nun?v?t or nwt or northwest territories or territoires du nord ouest or yukon).in.	
-9. or/1-8	
+1. exp Brain Injuries, Traumatic/	
+2. craniocerebral trauma/ or brain injuries/ or cranial nerve injuries/ or head injuries, closed/	
+3. (mild traumatic brain injur* or minor traumatic brain injur* or mtbi or tbi or concussion* or commotio cerbri or head injur*).tw,kf.	
+4. 1 or 2 or 3	
+5. exp Emergency Service, Hospital/	
+6. Emergencies/	
+7. (emergency or emergencies or ER).tw,kf.	
+8. 5 or 6 or 7	
+9. exp *Patient Discharge/ or *Length of Stay/	
+10. (discharge or release or (length adj4 stay)).tw,kf.	
+11. 9 or 10	
+12. 4 and 8 and 11	
+13. (discharge or release or (length adj4 stay)).ab. /freq=2	
+14. 9 or 13	
+15. 4 and 8 and 14
+16. exp canada/	
+17. canada.cp.	
+18. (canada or canadian$ or alberta or british columbia or columbie britannique).af.	
+19 (saskatchewan or manitoba or ontario or quebec or new brunswick or nouveau brunswick).af.	
+20. (nova scotia or nouvelle ecosse or prince edward island or ile du prince edward or newfoundland or terre neuve or labrador or nun?v?t or nun?v?t or nwt or territoires du nord ouest or northwest territories or yukon).af.	
+21. (canada or canadian$ or alberta or british columbia or columbie britannique).in.	
+22. (saskatchewan or manitoba or ontario or quebec or new brunswick or nouveau brunswick).in.	
+23.  (nova scotia or nouvelle ecosse or prince edward island or ile due prince edward or newfoundland or labrador or nun?v?t or nun?v?t or nwt or northwest territories or territoires du nord ouest or yukon).in.	
+24. or/16-23	
+25. 15 and 24
