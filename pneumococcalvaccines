@@ -1,0 +1,19 @@
+#title: Pneumococcal vaccine seasonal scheduling
+#date: October 2016
+#source: Ovid Medline
+1. exp Pneumococcal Vaccines/	
+2. (pcv13 or pcv 13 or ppsv or ppsv23 or ppv or triskaivalent pneumococcal or penumovax or prevnar or pneumo23 or pneumo 23 or 13-valent pneumococcal).tw,kf.	
+3. ((pneumococcal or pneumococcus) adj3 (vaccine* or vaccination)).tw,kf.	
+4. 1 or 2 or 3	
+5. ad.fs.	
+6. 4 and 5	
+7. *Time Factors/ or *Immunization Schedule/	
+8. (schedul* or season* or time period* or time factor* or timing or frequency or month or months or monthly or summer or winter or spring or fall or autumn or per day or per week).tw,kf.	
+9. 7 or 8	
+10. 6 and 9	
+11. (schedul* or season* or time period* or time factor* or timing or frequency or month or months or monthly or summer or winter or spring or fall or autumn or per day or per week).ab. /freq=2	
+12. 10 and 11	
+13. limit 12 to (english language and humans and yr="2007 -Current" and "all aged (65 and over)")	
+14. exp *pneumococcal vaccines/ad and *immunization schedule/	
+15. limit 14 to (english language and humans and yr="2007 -Current" and "all aged (65 and over)")	
+16. 13 or 15
