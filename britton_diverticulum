@@ -1,1 +1,19 @@
-test
+Database: Ovid MEDLINE(R) ALL <1946 to October 17, 2019>
+Search Strategy:
+--------------------------------------------------------------------------------
+1     Intestinal Volvulus/ (2491)
+2     volvulus.tw. (8165)
+3     1 or 2 (8854)
+4     Meckel Diverticulum/ (3569)
+5     (meckel? adj2 diverticulum).tw. (3549)
+6     4 or 5 (4350)
+7     Colitis, Ischemic/ (985)
+8     (ischem* adj2 (bowel or colon? or colitis or coliitis)).tw. (3210)
+9     7 or 8 (3575)
+10     3 and 6 and 9 (1)
+11     3 and 6 (133)
+12     6 and 9 (8)
+13     10 or 11 or 12 (140)
+14     limit 13 to (english language and yr="2013 -Current") (35)
+
+***************************
